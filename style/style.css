@@ -1,1 +1,54 @@
+.bg {
+    background: url('../obrazy/bg.jpg');
+    background-size: cover;
+}
 
+.games {
+    cursor: pointer;
+    margin: 5em auto;
+    width: 30em;
+    height: 30em;
+    background: url('../obrazy/2.jpg');
+    background-repeat: no-repeat;
+}
+
+.noview {
+    visibility: hidden;
+}
+
+.main {
+    margin: 10em auto;
+    width: 80%;
+    background-color: rgba(100,100,100,.7);
+}
+
+.hello {
+    width: 70vh;
+    margin: 5em auto;
+    color: white;
+}
+
+.menu-h {
+    max-height: 4em;
+}
+
+.btn {
+    max-width: 50%;
+    min-height: 15em;
+}
+
+#platnosc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgba(100,100,100,0.8);
+}
+
+.link {
+    padding: 0;
+    margin: 0;
+}
